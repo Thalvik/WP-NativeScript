@@ -1,0 +1,14 @@
+<GridLayout class="drawer-content">
+	<StackLayout>
+		<Label text="Home" id="main/main" class="" tap="navigate"/>
+		<Label text="Posts" id="posts/posts" class="" tap="navigate"/>
+		<Label text="Categories" id="categories/categories" class="" tap="navigate"/>
+		<Label text="Tags" id="tags/tags" class="" tap="navigate"/>
+		<Label text="Pages" id="pages/pages" class="" tap="navigate"/>
+		<Label text="Taxonomies" id="taxonomies/taxonomies" class="" tap="navigate"/>
+		<Label text="Media" id="media/media_list" class="" tap="navigate"/>
+		<Label text="Users" id="users/users" class="" tap="navigate"/>
+		<Label text="Post Types" id="posttypes/posttypes" class="" tap="navigate"/>
+		<Label text="Post Statuses" id="poststatuses/poststatuses" class="" tap="navigate"/>
+	</StackLayout>
+</GridLayout>

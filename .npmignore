@@ -1,0 +1,11 @@
+demo/
+changelog.
+contributors.md
+tsconfig.json
+tslint.json
+.idea/
+.git/
+graphics/
+*.tgz
+*.tar
+*.stackdump

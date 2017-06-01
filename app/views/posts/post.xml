@@ -1,0 +1,23 @@
+<Page xmlns:drawer="nativescript-telerik-ui/sidedrawer" xmlns:shared="shared" xmlns:lv="nativescript-telerik-ui/listview" loaded="loaded">
+
+    <ActionBar title="Post" class="action-bar" />
+    <drawer:RadSideDrawer id="drawer">
+        <drawer:RadSideDrawer.drawerContent>
+            <shared:drawer />
+        </drawer:RadSideDrawer.drawerContent>
+
+        <drawer:RadSideDrawer.mainContent>
+            <StackLayout >
+                <Button text="Menu" tap="toggleDrawer"/>
+                <StackLayout>
+				    <Label text="{{post.title.rendered}}" textWrap="true" class="mainTitle"/>
+				    <Label text="{{post.date}}" textWrap="true" class="mainDate"/>
+				    <htmlView html="{{post.content.rendered}}" class="mainSnippet"/>
+				    <Button text="View comments" tap="viewCommentsAction" />
+				    <Button text="View revisions" tap="viewRevisionsAction" />
+				  </StackLayout>
+            </StackLayout>
+        </drawer:RadSideDrawer.mainContent>
+    </drawer:RadSideDrawer>
+
+</Page>

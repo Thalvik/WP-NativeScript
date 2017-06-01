@@ -1,0 +1,27 @@
+bin/dist
+node_modules
+platforms
+tags
+**/*.js.map
+**/*.metadata.json
+
+.tscache
+.nvm
+.vscode
+.DS_Store
+npm-debug.log
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

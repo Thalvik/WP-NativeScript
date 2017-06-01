@@ -1,0 +1,21 @@
+<Page xmlns:drawer="nativescript-telerik-ui/sidedrawer" xmlns:shared="shared" xmlns:lv="nativescript-telerik-ui/listview" loaded="loaded">
+
+    <ActionBar title="Comment" class="action-bar" />
+    <drawer:RadSideDrawer id="drawer">
+        <drawer:RadSideDrawer.drawerContent>
+            <shared:drawer />
+        </drawer:RadSideDrawer.drawerContent>
+
+        <drawer:RadSideDrawer.mainContent>
+            <StackLayout >
+                <Button text="Menu" tap="toggleDrawer"/>
+                <StackLayout>
+				    <Label text="{{comment.title.rendered}}" textWrap="true" class="mainTitle"/>
+				    <Label text="{{comment.date}}" textWrap="true" class="mainDate"/>
+				    <htmlView html="{{comment.content.rendered}}" class="mainSnippet"/>
+				  </StackLayout>
+            </StackLayout>
+        </drawer:RadSideDrawer.mainContent>
+    </drawer:RadSideDrawer>
+
+</Page>

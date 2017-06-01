@@ -1,0 +1,25 @@
+﻿/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+For example, the following CSS rule changes the font size of all UI
+components that have the btn class name.
+*/
+
+@import '~/nativescript-theme-core/css/core.light.css';
+.drawer-content {
+  background-color: #053140;
+  color: white;
+  padding-top: 20;
+}
+.drawer-content Label {
+  font-size: 15;
+  margin: 10 0 15 25;
+}
+
+Button {
+	height: 150px;
+}
