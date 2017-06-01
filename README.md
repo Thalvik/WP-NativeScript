@@ -13,9 +13,10 @@ This is still in development, but you are free to use it in your project. Contri
 
 ## Running up
 
-1. `npm install tns-core-modules`
-2. `tns platform add ios` or `tns platform add android`
-3. `tns run android` or `tns run ios`
+1. `npm install`
+2. `npm install tns-core-modules`
+3. `tns platform add ios` or `tns platform add android`
+4. `tns run android` or `tns run ios`
 
 
 
